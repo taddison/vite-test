@@ -6,10 +6,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
+    <div className="App bg-green-100">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
+        <p>Hello, Vite + React!</p>
         <p>
           <button onClick={() => setCount((count) => count + 1)}>
             count is: {count}
