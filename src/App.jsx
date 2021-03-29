@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./fonts.css";
+import "./App.css";
 
 function App() {
   return (
@@ -87,21 +88,16 @@ function App() {
 
         {/* Right Col */}
         <div className="w-full xl:w-3/5 p-12 overflow-hidden">
-          <img
-            className="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6"
-            src="macbook.svg"
-          />
-        </div>
-
-        {/* Footer */}
-        <div className="w-full pt-16 pb-6 text-sm text-center md:text-left fade-in">
-          Template by
-          <a
-            className="text-gray-500 no-underline hover:no-underline"
-            href="https://www.tailwindtoolbox.com"
-          >
-            TailwindToolbox.com
-          </a>
+          <div className="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6">
+            <div className="shadow-lg rounded-2xl p-4 bg-white relative overflow-hidden">
+              <p className="text-gray-800 text-3xl font-medium mb-2">💩 Poop</p>
+              <p className="text-gray-400 text-lg">
+                As much as she might be a little darling, Darling Baby poops
+                just like everyone else. Have you check that, because that's
+                probably what is wrong with baby.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
