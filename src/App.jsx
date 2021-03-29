@@ -53,7 +53,7 @@ function App() {
         <div className="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
           <h1 className="my-4 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
             Asking{" "}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500 italic">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-700 to-purple-400 italic">
               "What's Wrong Baby"
             </span>{" "}
             all the time?
@@ -93,7 +93,7 @@ function App() {
               <p className="text-gray-800 text-3xl font-medium mb-2">💩 Poop</p>
               <p className="text-gray-400 text-lg">
                 As much as she might be a little darling, Darling Baby poops
-                just like everyone else. Have you check that, because that's
+                just like everyone else. Have you checked that, because that's
                 probably what is wrong with baby.
               </p>
             </div>
